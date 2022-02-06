@@ -1,0 +1,81 @@
+
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    font-size: 75px;
+}
+
+.subtitle {
+    font-size: 50px;
+    color: green;
+}
+
+.noteInputCon {
+    width: 100%;
+}
+
+#noteInput-Label {
+    display: block;
+    font-size: 30px;
+}
+
+#noteInput-Label textarea {
+    border: grey solid 2px;
+    border-radius: 5px;
+    margin: 0;
+    outline: 0 none;
+    padding: 10px;
+    width: 90%;
+    color: grey;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: grey solid 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 209, 0);
+    transition: 1s all ease-in-out;
+}
+.noteContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.noteArea {
+    border: grey 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.noteArea button {
+    border: grey solid 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    padding: 5px;
+}
+
+.delete {
+    display: none;
+}

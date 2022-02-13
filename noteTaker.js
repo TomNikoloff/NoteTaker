@@ -53,7 +53,5 @@ function addNote() {
       }
 }
 
-
-
 addBtn.addEventListener('click', addNote);
 

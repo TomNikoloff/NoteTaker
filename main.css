@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     line-height: 1.5;
     font-family: "europa", sans-serif;
-  }
+}
 
 .title {
     color: #252934;
@@ -33,7 +33,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-}
+} 
 
 .noteArea {
     border:#1e242c 2px solid;
@@ -41,6 +41,8 @@ body {
     padding: 10px;
     margin: 20px;
     background-color: #fff;
+    flex-grow: 1;
+    max-width: 100%;
 }
 
 .noteArea button {
@@ -49,6 +51,13 @@ body {
     background-color: #fff;
     color: #8c52ff;
     padding: 5px;
+}
+
+.noteArea p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 450px;
 }
 
 .noteArea button:hover {
@@ -61,7 +70,7 @@ body {
 }
 
 
-/* The Modal (background) */
+/*Modal Background*/
 #modal {
     display: none; 
     position: fixed; 
@@ -73,31 +82,31 @@ body {
     height: 100%; 
     overflow: auto; 
     background-color: rgba(0,0,0,0.8); 
-  }
+}
   
-  /* Modal Content */
-  .modalContent {
+/* Modal Content */
+.modalContent {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
     border: 3px solid grey;
     border-radius: 5px;
     width: 75%;
-  }
+}
 
-  .close {
-      font-weight: bold;
-      color: #8c52ff;
-      font-size: 30px;
-      float: right;
-  }
+/*Modal Close*/
+.close {
+    font-weight: bold;
+    color: #8c52ff;
+    font-size: 40px;
+}
 
-  .close:hover {
-      color: black;
-      transition: 1s ease-in-out;
-  }
+.close:hover {
+    color: black;
+    transition: 1s ease-in-out;
+}
 
-  .btn:hover {
+.btn:hover {
     color: #8c52ff;
 }
 

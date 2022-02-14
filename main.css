@@ -4,6 +4,17 @@ body {
     font-weight: 300;
     line-height: 1.5;
     font-family: "europa", sans-serif;
+  }
+
+:root{
+    --pseudo-color: #8c52ff;
+    }
+
+.rotate:hover
+{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
 }
 
 .title {
@@ -13,7 +24,7 @@ body {
 
 .subtitle {
     font-size: 3rem;
-    color: #8c52ff;
+    color: var(--pseudo-color);
 }
 
 .noteInputCon {
@@ -49,7 +60,7 @@ body {
     border: #252934 solid 3px;
     border-radius: 10px;
     background-color: #fff;
-    color: #8c52ff;
+    color: var(--pseudo-color);
     padding: 5px;
 }
 
@@ -97,7 +108,7 @@ body {
 /*Modal Close*/
 .close {
     font-weight: bold;
-    color: #8c52ff;
+    color: var(--pseudo-color);
     font-size: 40px;
 }
 
@@ -107,7 +118,7 @@ body {
 }
 
 .btn:hover {
-    color: #8c52ff;
+    color: var(--pseudo-color);
 }
 
 .btn_Div {
